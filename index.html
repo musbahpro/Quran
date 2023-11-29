@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="icon" type="image/x-icon" href="https://upload.wikimedia.org/wikipedia/commons/3/33/%D8%A7%D9%84%D9%82%D8%B1%D8%A7%D9%86_%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85_-_%D8%B4%D8%B9%D8%A7%D8%B1_%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86_%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85_-_%D9%84%D9%88%D8%BA%D9%88_%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86_%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85_-_logo_quran.svg">
+    <meta name="description" content="Listen to the best reciters of the Holy Quran" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Quran Kerim</title>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/styling.css" />
+  </head>
+
+  <body>
+    <div class="main-banner ">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="top-text header-text">
+              <h2>أستمع إلى قارئك المفضل</h2>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <form
+              id="search-form"
+              name="gs"
+              method="submit"
+              role="search"
+              action="#"
+            >
+              <div class="row">
+                <div class="col-lg-4 mt-3 mb-3  align-self-center">
+                  <fieldset>
+                    <select
+                      name="area"
+                      class="form-select"
+                      aria-label="Area"
+                      id="chooseReciters"
+                    >
+                      <option selected>اختر قارئك المفضل</option>
+                    </select>
+                  </fieldset>
+                </div>
+                <div class="col-lg-4 mt-3 mb-3  align-self-center">
+                  <fieldset>
+                    <select
+                      name="area"
+                      class="form-select"
+                      aria-label="Area"
+                      id="chooseRiwayat"
+                    >
+                      <option selected>اختر الرواية</option>
+                    </select>
+                  </fieldset>
+                </div>
+                <div class="col-lg-4 mt-3 mb-3  align-self-center">
+                  <fieldset>
+                    <select
+                      name="price"
+                      class="form-select"
+                      aria-label="Default select example"
+                      id="chooseSuwar"
+                    >
+                      <option selected>اختر السورة </option>
+                    </select>
+                  </fieldset>
+                </div>
+
+              </div>
+              <div class="col-lg-12">
+                <audio id="playSurah" controls autoplay  style="width: 80%; margin-top: 20px; margin-bottom: 20px;" src="">
+                  <source src="" type="audio/ogg">
+                  <source src="" type="audio/mpeg">
+                </audio>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+          <div class="col-lg-12">
+            <div class="sub-footer">
+              <div class="logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/%D8%A7%D9%84%D9%82%D8%B1%D8%A7%D9%86_%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85_-_%D8%B4%D8%B9%D8%A7%D8%B1_%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86_%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85_-_%D9%84%D9%88%D8%BA%D9%88_%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86_%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85_-_logo_quran.svg" alt="Plot Listing" />
+              </div>
+              <p> Copyright © 2021 </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+
+  </body>
+</html>
